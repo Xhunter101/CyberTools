@@ -73,3 +73,4 @@ objShell.Run "powershell -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass 
 & "Remove-Item -Path $Attachment -Force -ErrorAction SilentlyContinue" , 0, False
 
 Set objShell = Nothing
+
